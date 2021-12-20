@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "es6",
+    "target": "es6",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "moduleResolution": "node"
+  },
+  "types": [
+    "cypress"
+  ],
+  "include": [
+    "**/**/*.ts",
+    "**/*.ts",
+    "../node_modules/cypress/types/*.ts"
+  ]
+}

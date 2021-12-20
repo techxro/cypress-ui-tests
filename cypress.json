@@ -1,0 +1,29 @@
+{
+  "viewportWidth": 1300,
+  "viewportHeight": 1000,
+  "defaultCommandTimeout": 15000,
+  "pageLoadTimeout": 20000,
+  "chromeWebSecurity": false,
+  "responseTimeout": 7000,
+  "taskTimeout": 7000,
+  "requestTimeout": 7000,
+  "videoCompression": false,
+  "integrationFolder": "cypress/integration/",
+  "numTestsKeptInMemory": 1,
+  "env": {
+    "baseUrl": "https://www.ottonova.de/online-beitragsrechner/"
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "charts" : true,
+      "html": false,
+      "json": true
+    },
+    "screenshotsFolder": "cypress/reports/mochareports/assets"
+  }
+}

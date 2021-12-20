@@ -1,0 +1,10 @@
+{
+  "amount": "70,000",
+  "name": "Vollversicherung",
+  "startDate": "01.12.2021",
+  "day": "01",
+  "month": "01",
+  "year": "2021",
+  "messageTextOne": " Leider kannst du dich erst ab 16 Jahren alleine versichern. ",
+  "messageTextTwo": " Du bist in der Zukunft geboren? Bitte überprüfe deine Eingaben. "
+}
